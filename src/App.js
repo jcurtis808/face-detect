@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Particles from 'react-particles-js';
 import Navigation from './Components/Navigation/Navigation';
-import Logo from './Components/Logo/Logo';
 import SignIn from './Components/SignIn/SignIn';
 import Register from './Components/Register/Register';
 import Rank from './Components/Rank/Rank';
@@ -120,7 +119,6 @@ class App extends Component {
             params={particleOptions}
           />
           <Navigation isSignedIn={isSignedIn} onRouteChange={this.onRouteChange}/>
-          <Logo />
           { this.state.route === 'home' 
             ? <div>
                 <Rank name={this.state.user.name} entries={this.state.user.entries}/>
