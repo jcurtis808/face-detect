@@ -1,1 +1,1 @@
-This is a project I am currently working on as part of the Zero to Mastery full stack course on Udemy. Updating here as I go, thanks for it checking out! 
+This is a project I made as part of the Zero to Mastery full stack course on Udemy. Project is fully deployed via Heroku and will continue to update in the future. Please let me know your thoughts and if you have any recommendations for improvement. Next inline is to increase face detection to more than 1 outlined box. 
